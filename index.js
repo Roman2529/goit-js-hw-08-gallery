@@ -55,7 +55,7 @@ refs.lightBoxContent.addEventListener("click", (event) => {
   }
 });
 
-//-------keys
+//-------key
 
 function escapeKey() {
   if (event.key === "Escape") {
