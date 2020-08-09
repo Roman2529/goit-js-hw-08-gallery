@@ -37,14 +37,11 @@ elements.forEach((element) => {
 
 //------open
 
-// let activeSlide;
 refs.list.addEventListener("click", (event) => {
   event.preventDefault();
 
   refs.lightbox.classList.add("is-open");
   refs.lightboxImage.src = event.target.getAttribute("data-sourse");
-
-  // activeSlide = +event.target.dataset;
 });
 
 //--------close
