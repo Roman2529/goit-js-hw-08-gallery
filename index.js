@@ -31,9 +31,7 @@ const createGalleryItems = (gallery) => {
 };
 
 const elements = createGalleryItems(gallery);
-elements.forEach((element) => {
-  refs.list.appendChild(element);
-});
+refs.list.append(...elements);                           
 
 //------open
 
